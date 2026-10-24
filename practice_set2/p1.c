@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+
+int main(){
+    char str[101];
+    int i = 0;
+    fgets(str, sizeof(str),stdin);
+
+    while(str[i] != '\0'){
+        char ch = str[i];
+        char lower = tolower(ch);
+
+        if(lower == 'a' || lower == 'e' || lower == 'i' || lower == 'o' || lower == 'u'){
+        }else if(ch == ' '){
+            printf("_");
+        }else{
+            printf("%c",ch);
+        }
+        i++;
+    }
+    
+    return 0;
+}

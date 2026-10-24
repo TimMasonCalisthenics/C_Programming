@@ -1,0 +1,2 @@
+
+            printAndFree(head);

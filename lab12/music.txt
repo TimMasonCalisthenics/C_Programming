@@ -1,0 +1,7 @@
+Code: 200
+Title: Fortune Cookie
+Artist: BNK48
+Issue Date: 25/02/30
+Company: Akibara
+Price: 249.00
+-----------------------------
